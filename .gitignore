@@ -1,0 +1,26 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python compiled bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Application specific secrets and environment config
+.env
+
+# Application databases (SQLite physical storage files)
+database/*.db
+
+# Application runtime logs
+logs/*.log
+
+# Operational screens and placeholders
+screenshots/tmp_*
+.idea/
+.vscode/
+.DS_Store
